@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    private WebCamTexture webcamTexture;
+    public WebCamTexture webcamTexture;
     //private Texture2D capturedImage;
     private new Renderer renderer;
     //private FirebaseStorage storage;
