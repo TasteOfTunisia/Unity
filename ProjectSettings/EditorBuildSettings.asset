@@ -4,7 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Mapbox/Examples/3_POIPlacement/POIPlacement.unity
+    guid: c600a8b272a5846a1b71bdc2d0796637
+  - enabled: 1
+    path: Assets/_Project/Scenes/Mapbox Route.unity
+    guid: 4fc6ee4613f00408f8179485c76b9d85
+  - enabled: 1
+    path: Assets/Game/Scenes/MainGame.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Camera/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c5653cdd0c3b0bd40965f3348ce8f850, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 941884aaa39524c61a3a84adf6a8ad1a, type: 2}
