@@ -97,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        if (hit.transform.tag == "Obstacle")
+        if (hit.transform.CompareTag("Obstacle"))
         {
             PlayerManager.gameOver = true;
             StartCoroutine(VibrateForTime());
@@ -106,7 +106,7 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator VibrateForTime()
     {
-        Vibration.Vibrate(2000, -1, true);
+        Vibration.Vibrate(1500, -1, true);
         yield return new WaitForSeconds(1);
         Vibration.Cancel();
     }

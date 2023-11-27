@@ -18,7 +18,7 @@ public class SettingsSelector : MonoBehaviour
     }
 
     private IEnumerator LoadMainScene() {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.75f);
         SceneManager.LoadScene(1);
     }
 }
